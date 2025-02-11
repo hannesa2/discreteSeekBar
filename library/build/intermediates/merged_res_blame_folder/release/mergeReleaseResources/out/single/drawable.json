@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/ic_call_answer_video.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/ic_call_answer_low.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/ic_call_decline_low.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/ic_call_decline_low.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/notification_bg.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/notification_icon_background.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/ic_call_answer.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/ic_call_answer.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/ic_call_answer_video_low.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/ic_call_decline.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/ic_call_decline.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/notification_bg_low.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/drawable/notification_tile_bg.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/drawable/notification_tile_bg.xml"
+    }
+]

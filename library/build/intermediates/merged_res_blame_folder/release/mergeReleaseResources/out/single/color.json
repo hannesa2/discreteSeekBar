@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/color/dsb_ripple_color_list.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-main-17:/color/dsb_ripple_color_list.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/color/dsb_progress_color_list.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-main-17:/color/dsb_progress_color_list.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/color/dsb_track_color_list.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-main-17:/color/dsb_track_color_list.xml"
+    }
+]

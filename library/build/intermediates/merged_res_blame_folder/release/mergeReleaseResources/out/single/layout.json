@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/ime_secondary_split_test_activity.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/layout/ime_secondary_split_test_activity.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_media_cancel_action.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/ime_base_split_test_activity.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_big_media_narrow.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_part_chronometer.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_lines_media.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_media_action.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_big_media.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_big_media_custom.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_media_custom.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_part_time.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/custom_dialog.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-core-1.15.0-2:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "org.adw.library.widgets.discreteseekbar.library-release-16:/layout/notification_template_media.xml",
+        "source": "org.adw.library.widgets.discreteseekbar.library-media-1.0.0-8:/layout/notification_template_media.xml"
+    }
+]

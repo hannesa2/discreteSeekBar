@@ -1,0 +1,4 @@
+org.adw.samples.discreteseekbar.test.sample-androidTest-0 /Users/hannes/git/discreteSeekBar/sample/build/generated/res/resValues/androidTest/debug
+org.adw.samples.discreteseekbar.test.sample-mergeDebugAndroidTestResources-1 /Users/hannes/git/discreteSeekBar/sample/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+org.adw.samples.discreteseekbar.test.sample-mergeDebugAndroidTestResources-2 /Users/hannes/git/discreteSeekBar/sample/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+org.adw.samples.discreteseekbar.test.sample-debugAndroidTest-3 /Users/hannes/git/discreteSeekBar/sample/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

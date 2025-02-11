@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.6.0" type="conditional_incidents">
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`Gravity.START`&quot; instead of &quot;`Gravity.LEFT`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/Marker.java"
+            line="118"
+            column="79"
+            startOffset="5360"
+            endLine="118"
+            endColumn="83"
+            endOffset="5364"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="RtlHardcoded"
+        severity="warning"
+        message="Use &quot;`Gravity.START`&quot; instead of &quot;`Gravity.LEFT`&quot; to ensure correct behavior in right-to-left locales">
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/PopupIndicator.java"
+            line="220"
+            column="129"
+            startOffset="8369"
+            endLine="220"
+            endColumn="133"
+            endOffset="8373"/>
+        <map>
+            <entry
+                name="applies"
+                int="2"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 11">
+        <fix-replace
+            description="Delete @TargetApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/AnimatorCompatV11.java"
+                startOffset="986"
+                endOffset="1027"/>
+        </fix-replace>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/AnimatorCompatV11.java"
+            line="30"
+            column="1"
+            startOffset="986"
+            endLine="30"
+            endColumn="42"
+            endOffset="1027"/>
+        <map>
+            <condition minGE="fffffffffffffc00"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @TargetApi"
+            replacement=""
+            priority="0">
+            <range
+                file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompatDontCrash.java"
+                startOffset="1269"
+                endOffset="1283"/>
+        </fix-replace>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompatDontCrash.java"
+            line="38"
+            column="1"
+            startOffset="1269"
+            endLine="38"
+            endColumn="15"
+            endOffset="1283"/>
+        <map>
+            <condition minGE="fffffffffff00000"/>
+        </map>
+    </incident>
+
+</incidents>
