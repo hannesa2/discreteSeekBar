@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.6.0" type="partial_results">
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="attr[discreteSeekBarStyle(U),dsb_min(D),dsb_max(D),dsb_value(D),dsb_mirrorForRtl(D),dsb_allowTrackClickToDrag(D),dsb_progressColor(D),dsb_trackColor(D),dsb_indicatorTextAppearance(D),dsb_indicatorColor(D),dsb_indicatorElevation(D),dsb_indicatorFormatter(D),dsb_rippleColor(D),dsb_indicatorPopupEnabled(D),dsb_trackHeight(D),dsb_scrubberHeight(D),dsb_thumbSize(D),dsb_indicatorSeparation(D)],color[dsb_progress_color_list(U),dsb_disabled_color(U),dsb_progress_color(U),dsb_ripple_color_list(U),dsb_ripple_color_focused(U),dsb_ripple_color_pressed(U),dsb_track_color_list(U),dsb_track_color(U)],style[Widget_DiscreteSeekBar(U),Widget_DiscreteIndicatorTextAppearance(U)],styleable[Theme(D),DiscreteSeekBar(U),DiscreteSeekBar_dsb_mirrorForRtl(R),DiscreteSeekBar_dsb_allowTrackClickToDrag(R),DiscreteSeekBar_dsb_indicatorPopupEnabled(R),DiscreteSeekBar_dsb_trackHeight(R),DiscreteSeekBar_dsb_scrubberHeight(R),DiscreteSeekBar_dsb_thumbSize(R),DiscreteSeekBar_dsb_indicatorSeparation(R),DiscreteSeekBar_dsb_max(R),DiscreteSeekBar_dsb_min(R),DiscreteSeekBar_dsb_value(R),DiscreteSeekBar_dsb_indicatorFormatter(R),DiscreteSeekBar_dsb_trackColor(R),DiscreteSeekBar_dsb_progressColor(R),DiscreteSeekBar_dsb_rippleColor(R),DiscreteSeekBar_dsb_indicatorTextAppearance(R),DiscreteSeekBar_dsb_indicatorColor(R),DiscreteSeekBar_dsb_indicatorElevation(R)];12^13^14,15^13^16^17,18^13^19,1a^1b^12^18^15^14;;;"/>
+    </map>
+
+</incidents>

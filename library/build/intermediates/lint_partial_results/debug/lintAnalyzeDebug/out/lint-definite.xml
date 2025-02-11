@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.6.0" type="incidents">
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view `DiscreteSeekBar` overrides `onTouchEvent` but not `performClick`">
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/DiscreteSeekBar.java"
+            line="703"
+            column="20"
+            startOffset="25694"
+            endLine="703"
+            endColumn="32"
+            endOffset="25706"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/DiscreteSeekBar.java"
+            line="125"
+            column="56"
+            startOffset="4496"
+            endLine="125"
+            endColumn="109"
+            endOffset="4549"/>
+    </incident>
+
+    <incident
+        id="ViewConstructor"
+        severity="warning"
+        message="Custom view `Marker` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`">
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/Marker.java"
+            line="49"
+            column="14"
+            startOffset="1674"
+            endLine="49"
+            endColumn="20"
+            endOffset="1680"/>
+    </incident>
+
+    <incident
+        id="CustomViewStyleable"
+        severity="warning"
+        message="By convention, the custom view (`Marker`) and the declare-styleable (`DiscreteSeekBar`) should have the same name (various editor features rely on this convention)">
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/Marker.java"
+            line="67"
+            column="62"
+            startOffset="2601"
+            endLine="67"
+            endColumn="89"
+            endOffset="2628"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/Marker.java"
+            line="100"
+            column="13"
+            startOffset="4243"
+            endLine="100"
+            endColumn="66"
+            endOffset="4296"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/Marker.java"
+            line="109"
+            column="25"
+            startOffset="4671"
+            endLine="109"
+            endColumn="39"
+            endOffset="4685"/>
+    </incident>
+
+    <incident
+        id="WrongConstant"
+        severity="error"
+        message="Must be one or more of: Gravity.FILL, Gravity.FILL_HORIZONTAL, Gravity.FILL_VERTICAL, Gravity.START, Gravity.END, Gravity.LEFT, Gravity.RIGHT, Gravity.TOP, Gravity.BOTTOM, Gravity.CENTER, Gravity.CENTER_HORIZONTAL, Gravity.CENTER_VERTICAL, Gravity.DISPLAY_CLIP_HORIZONTAL, Gravity.DISPLAY_CLIP_VERTICAL, Gravity.CLIP_HORIZONTAL, Gravity.CLIP_VERTICAL, Gravity.NO_GRAVITY">
+        <fix-replace
+            description="Change to Gravity.START (8388611)"
+            replacement="android.view.Gravity.START"
+            shortenNames="true"
+            priority="0"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/PopupIndicator.java"
+            line="107"
+            column="39"
+            startOffset="3904"
+            endLine="107"
+            endColumn="58"
+            endOffset="3923"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/AnimatorCompat.java"
+            line="55"
+            column="13"
+            startOffset="1785"
+            endLine="55"
+            endColumn="67"
+            endOffset="1839"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="49"
+            column="13"
+            startOffset="1618"
+            endLine="49"
+            endColumn="66"
+            endOffset="1671"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="62"
+            column="13"
+            startOffset="2065"
+            endLine="62"
+            endColumn="66"
+            endOffset="2118"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="75"
+            column="13"
+            startOffset="2564"
+            endLine="75"
+            endColumn="66"
+            endOffset="2617"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="93"
+            column="13"
+            startOffset="3202"
+            endLine="93"
+            endColumn="66"
+            endOffset="3255"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="111"
+            column="13"
+            startOffset="3877"
+            endLine="111"
+            endColumn="68"
+            endOffset="3932"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="126"
+            column="13"
+            startOffset="4378"
+            endLine="126"
+            endColumn="72"
+            endOffset="4437"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="132"
+            column="13"
+            startOffset="4613"
+            endLine="132"
+            endColumn="76"
+            endOffset="4676"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-data conditional="true"/>
+        <location
+            file="${:library*debug*MAIN*sourceProvider*0*javaDir*0}/org/adw/library/widgets/discreteseekbar/internal/compat/SeekBarCompat.java"
+            line="139"
+            column="13"
+            startOffset="4861"
+            endLine="139"
+            endColumn="67"
+            endOffset="4915"/>
+    </incident>
+
+</incidents>

@@ -26,11 +26,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.graphics.drawable.DrawableCompat;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.KeyEvent;
@@ -38,6 +33,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewParent;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.graphics.drawable.DrawableCompat;
+import androidx.core.view.MotionEventCompat;
+import androidx.core.view.ViewCompat;
 
 import org.adw.library.widgets.discreteseekbar.internal.PopupIndicator;
 import org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat;
@@ -62,11 +63,11 @@ public class DiscreteSeekBar extends View {
          * @param value    the new value
          * @param fromUser if the change was made from the user or not (i.e. the developer calling {@link #setProgress(int)}
          */
-        public void onProgressChanged(DiscreteSeekBar seekBar, int value, boolean fromUser);
+        void onProgressChanged(DiscreteSeekBar seekBar, int value, boolean fromUser);
 
-        public void onStartTrackingTouch(DiscreteSeekBar seekBar);
+        void onStartTrackingTouch(DiscreteSeekBar seekBar);
 
-        public void onStopTrackingTouch(DiscreteSeekBar seekBar);
+        void onStopTrackingTouch(DiscreteSeekBar seekBar);
     }
 
     /**
@@ -131,14 +132,14 @@ public class DiscreteSeekBar extends View {
     private static final int INDICATOR_DELAY_FOR_TAPS = 150;
     private static final int DEFAULT_THUMB_COLOR = 0xff009688;
     private static final int SEPARATION_DP = 5;
-    private ThumbDrawable mThumb;
-    private TrackRectDrawable mTrack;
-    private TrackRectDrawable mScrubber;
-    private Drawable mRipple;
+    private final ThumbDrawable mThumb;
+    private final TrackRectDrawable mTrack;
+    private final TrackRectDrawable mScrubber;
+    private final Drawable mRipple;
 
-    private int mTrackHeight;
-    private int mScrubberHeight;
-    private int mAddedTouchBounds;
+    private final int mTrackHeight;
+    private final int mScrubberHeight;
+    private final int mAddedTouchBounds;
 
     private int mMax;
     private int mMin;
@@ -156,14 +157,14 @@ public class DiscreteSeekBar extends View {
     private boolean mIsDragging;
     private int mDragOffset;
 
-    private Rect mInvalidateRect = new Rect();
-    private Rect mTempRect = new Rect();
+    private final Rect mInvalidateRect = new Rect();
+    private final Rect mTempRect = new Rect();
     private PopupIndicator mIndicator;
     private AnimatorCompat mPositionAnimator;
     private float mAnimationPosition;
     private int mAnimationTarget;
     private float mDownX;
-    private float mTouchSlop;
+    private final float mTouchSlop;
 
     public DiscreteSeekBar(Context context) {
         this(context, null);
@@ -958,7 +959,7 @@ public class DiscreteSeekBar extends View {
         }
     }
 
-    private Runnable mShowIndicatorRunnable = new Runnable() {
+    private final Runnable mShowIndicatorRunnable = new Runnable() {
         @Override
         public void run() {
             showFloater();
@@ -981,7 +982,7 @@ public class DiscreteSeekBar extends View {
         }
     }
 
-    private MarkerDrawable.MarkerAnimationListener mFloaterListener = new MarkerDrawable.MarkerAnimationListener() {
+    private final MarkerDrawable.MarkerAnimationListener mFloaterListener = new MarkerDrawable.MarkerAnimationListener() {
         @Override
         public void onClosingComplete() {
             mThumb.animateToNormal();
@@ -1004,7 +1005,7 @@ public class DiscreteSeekBar extends View {
     }
 
     public boolean isRtl() {
-        return (ViewCompat.getLayoutDirection(this) == LAYOUT_DIRECTION_RTL) && mMirrorForRtl;
+        return (ViewCompat.getLayoutDirection(this) == ViewCompat.LAYOUT_DIRECTION_LTR) && mMirrorForRtl;
     }
 
     @Override

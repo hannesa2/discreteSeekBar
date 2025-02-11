@@ -21,7 +21,6 @@ import android.graphics.PixelFormat;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.os.IBinder;
-import android.support.v4.view.GravityCompat;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
@@ -40,7 +39,6 @@ import org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable;
  * This will attach a View to the Window (full-width, measured-height, positioned just under the thumb)
  * </p>
  *
- * @hide
  * @see #showIndicator(android.view.View, android.graphics.Rect)
  * @see #dismiss()
  * @see #dismissComplete()
@@ -50,13 +48,13 @@ public class PopupIndicator {
 
     private final WindowManager mWindowManager;
     private boolean mShowing;
-    private Floater mPopupView;
+    private final Floater mPopupView;
     //Outside listener for the DiscreteSeekBar to get MarkerDrawable animation events.
     //The whole chain of events goes this way:
     //MarkerDrawable->Marker->Floater->mListener->DiscreteSeekBar....
     //... phew!
     private MarkerDrawable.MarkerAnimationListener mListener;
-    private int[] mDrawingLocation = new int[2];
+    private final int[] mDrawingLocation = new int[2];
     Point screenSize = new Point();
 
     public PopupIndicator(Context context, AttributeSet attrs, int defStyleAttr, String maxValue, int thumbSize, int separation) {
@@ -103,7 +101,7 @@ public class PopupIndicator {
         if (windowToken != null) {
             WindowManager.LayoutParams p = createPopupLayout(windowToken);
 
-            p.gravity = Gravity.TOP | GravityCompat.START;
+            p.gravity = Gravity.TOP | Gravity.START;
             updateLayoutParamsForPosiion(parent, p, touchBounds.bottom);
             mShowing = true;
 
@@ -137,10 +135,7 @@ public class PopupIndicator {
     public void dismissComplete() {
         if (isShowing()) {
             mShowing = false;
-            try {
-                mWindowManager.removeViewImmediate(mPopupView);
-            } finally {
-            }
+            mWindowManager.removeViewImmediate(mPopupView);
         }
     }
 
@@ -185,8 +180,6 @@ public class PopupIndicator {
     /**
      * I'm NOT completely sure how all this bitwise things work...
      *
-     * @param curFlags
-     * @return
      */
     private int computeFlags(int curFlags) {
         curFlags &= ~(
@@ -210,7 +203,7 @@ public class PopupIndicator {
      * (like moving the marker around, having the Marker's outline to work, etc)
      */
     private class Floater extends FrameLayout implements MarkerDrawable.MarkerAnimationListener {
-        private Marker mMarker;
+        private final Marker mMarker;
         private int mOffset;
 
         public Floater(Context context, AttributeSet attrs, int defStyleAttr, String maxValue, int thumbSize, int separation) {

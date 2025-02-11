@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+color my_floater_color
+color my_progress_color
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+drawable ic_launcher
+id discrete1
+id discrete2
+id discrete3
+layout activity_main
+string app_name
+string lorem_ipsum
+string lorem_ipsum_2
+style AppTheme
+style CustomFloaterTextAppearance
